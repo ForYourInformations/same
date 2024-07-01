@@ -16,7 +16,7 @@
       }
     ],
     "build": {
-      "command": "./node_modules/.bin/ng build --prod",
+      "command": "npx ng build --configuration production",
       "outputDirectory": "dist/angular-frontend"
     }
   }
