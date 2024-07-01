@@ -1,7 +1,8 @@
 {
+    "version": 2,
     "builds": [
       {
-        "src": "dist/angular-frontend/**",
+        "src": "dist/angular-frontend/**/*",
         "use": "@vercel/static"
       }
     ],
