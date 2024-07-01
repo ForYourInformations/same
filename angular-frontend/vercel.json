@@ -10,7 +10,14 @@
       }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ],
+    "build": {
+      "command": "./node_modules/.bin/ng build --prod",
+      "outputDirectory": "dist/angular-frontend"
+    }
   }
   
