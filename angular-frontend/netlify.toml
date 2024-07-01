@@ -1,8 +1,9 @@
 [build]
-  command = "npx ./node_modules/.bin/ng build --configuration production"
+  command = "npx ng build --configuration production"
   publish = "dist/angular-frontend"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
