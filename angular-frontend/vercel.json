@@ -14,10 +14,6 @@
         "src": "/(.*)",
         "dest": "/index.html"
       }
-    ],
-    "build": {
-      "command": "npx ng build --configuration production",
-      "outputDirectory": "dist/angular-frontend"
-    }
+    ]
   }
   
